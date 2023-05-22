@@ -6,8 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract DegenToken is ERC20, Ownable {
 
-    
-    mapping(address => uint256) public tokenBalances;
+ 
     mapping(address => bool) public hasRedeemed;
 
     struct Item {
